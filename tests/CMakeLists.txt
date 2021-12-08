@@ -4,6 +4,9 @@ add_executable(${BINARY} EXCLUDE_FROM_ALL
     "src/day1.cpp"
     "../AoC2021/day1/part1/src/sonar.cpp"
     "../AoC2021/day1/part2/src/sonar.cpp"
+    "src/day2.cpp"
+    "../AoC2021/day2/part1/src/navi.cpp"
+    "../AoC2021/day2/part2/src/navi.cpp"
 )
 
 target_include_directories(${BINARY} PRIVATE include)

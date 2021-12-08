@@ -1,4 +1,8 @@
+#ifndef AOC2021_RESOURCES_DAY1_HPP_
+#define AOC2021_RESOURCES_DAY1_HPP_
+
 #include <vector>
+
 namespace AoC2021::tests::day1
 {
 
@@ -141,3 +145,5 @@ namespace AoC2021::tests::day1
         6289, 6292, 6293, 6297, 6308
     };
 } // namespace AoC2021::tests::day1
+
+#endif
