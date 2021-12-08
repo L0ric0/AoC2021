@@ -1,12 +1,14 @@
 set(BINARY tests)
 
 add_executable(${BINARY} EXCLUDE_FROM_ALL
-    "src/1.cpp"
-    "../AoC2021/include/Aoc2021/1/sonar.hpp" "../AoC2021/1/src/sonar.cpp"
+    "src/day1.cpp"
+    "../AoC2021/day1/part1/src/sonar.cpp"
+    "../AoC2021/day1/part2/src/sonar.cpp"
 )
 
 target_include_directories(${BINARY} PRIVATE include)
 target_include_directories(${BINARY} PRIVATE ../AoC2021/include)
+target_include_directories(${BINARY} PRIVATE ../resources/)
 
 target_link_libraries(${BINARY} PRIVATE project_warnings project_options)
 

@@ -1,6 +1,8 @@
 #include <vector>
-namespace AoC2021::tests::day1_part1
+namespace AoC2021::tests::day1
 {
+
+    const std::vector<int> small_sonar_data { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
 
     const std::vector<int> sonar_data {
         109,  117,  118,  98,   102,  94,   101,  109,  121,  126,  117,  116,  134,  119,  98,
@@ -138,4 +140,4 @@ namespace AoC2021::tests::day1_part1
         6252, 6273, 6266, 6276, 6277, 6276, 6299, 6300, 6299, 6289, 6291, 6289, 6287, 6288, 6287,
         6289, 6292, 6293, 6297, 6308
     };
-}
+} // namespace AoC2021::tests::day1
